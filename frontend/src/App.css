@@ -1,0 +1,4 @@
+.bg-grid {
+  background-image: linear-gradient(to right, #ccc 1px, transparent 1px), linear-gradient(to bottom, #ccc 1px, transparent 1px);
+  background-size: 30px 30px;
+}
