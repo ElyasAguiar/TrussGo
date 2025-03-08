@@ -1,19 +1,19 @@
-# README
+# Truss Go
 
-## About
+## Sobre o Aplicativo
 
-This is the official Wails React template.
+O Truss Go é uma ferramenta interativa para a construção, análise e edição de treliças (truss) via interface gráfica. Com ele, você pode criar nós (points), membros (members), suportes e cargas para modelar estruturas de treliça de forma visual, realizar modificações em tempo real e visualizar os resultados no canvas.
 
-You can configure the project by editing `wails.json`. More information about the project settings can be found
-here: https://wails.io/docs/reference/project-config
+## Funcionalidades
 
-## Live Development
+- **Criação e Edição de Nós:** Adicione nós informando coordenadas e edite suas posições diretamente na interface.
+- **Adição de Membros:** Conecte nós para formar os membros da treliça, editando e removendo conforme necessário.
+- **Visualização Interativa:** O canvas exibe a estrutura de forma interativa com suporte para zoom, grid personalizável e barra de navegação posicionada.
+- **Interface Intuitiva:** A área de componentes permite selecionar e alterar os elementos da estrutura de maneira rápida e visual.
 
-To run in live development mode, run `wails dev` in the project directory. This will run a Vite development
-server that will provide very fast hot reload of your frontend changes. If you want to develop in a browser
-and have access to your Go methods, there is also a dev server that runs on http://localhost:34115. Connect
-to this in your browser, and you can call your Go code from devtools.
+## Como Executar em Desenvolvimento
 
-## Building
-
-To build a redistributable, production mode package, use `wails build`.
+1. Certifique-se de ter as dependências instaladas.
+2. No diretório do projeto, execute:
+   ```bash
+   wails dev
