@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "konva": "^9.3.16",
-    "react-konva": "^18.2.10"
+    "jsxgraph": "^1.10.1"
   }
 }
